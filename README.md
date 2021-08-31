@@ -1,24 +1,5 @@
-# uplinex
+# Teste Uplinex
 
-## Project setup
-```
-yarn install
-```
+Para rodar o projeto basta rodar o comando "yarn install" e em seguida "yarn serve".
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+A lista de Cards se encontra em em src/assets/Cards.js, assim como as Categorias.
