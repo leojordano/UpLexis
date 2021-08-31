@@ -1,0 +1,61 @@
+@import '../../../styles/_mixins.scss';
+@import '../../../styles/_vars.scss';
+
+.card {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  position: relative;
+  height: 350px;
+  width: 350px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 14px -7px rgba(0,0,0,0.98);
+  margin: 0px 30px 30px 0px;
+  
+  .card__body {
+    border-radius: 10px;
+    width: 100%;
+    height: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .card__body__icon img{
+      width: 40px;
+    }
+
+    .card__body__title {
+      font-size: 20px;
+      font-weight: 600;
+      margin: 20px 0px;
+      color: #424242;
+    }
+
+    .card__body__description {
+      font-size: 14px;
+      max-width: 70%;
+      text-align: center;
+      color: gray;
+    }
+  }
+
+  .card__footer {
+    @include gradient;
+    color: white;
+    border-radius: 0px 0px 10px 10px;
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    // box-shadow: 0px 0px 14px -7px rgba(0,0,0,0.8);
+
+    .card__footer__link {
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+    }
+  }
+
+}

@@ -1,0 +1,6 @@
+@import './vars';
+
+@mixin gradient {
+  background: rgb(255,184,116);
+  background: linear-gradient(45deg, rgba(255,184,116,1) 2%, $mainOrange 56%, $mainOrange 100%);
+}
